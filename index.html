@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Blank Canvas</title>
+    <script defer src="javascripts/blank.js"></script>
+    <link rel="stylesheet" href="stylesheets/blank.css">
+  </head>
+  <body>
+    <header class="pageHead">
+      <h1>This is a blank canvas!</h1>
+    </header>
+    <main>
+      <aside class="toolBar-col">
+        <h2>Color Palette</h2>
+        <button><input type="color" onchange="changeEventHandler(event);"/></button>
+        <h2>Eraser</h2>
+        <button id="eraser" style="background-color:white"></button>
+        <h2>Current Color</h2>
+        <div id="currentColor" style="background-color:white"></div>
+      </aside>
+      <section class="grid-col">
+        <div class="row"></div>
+      </section>
+    </main>
+  </body>
+</html>
