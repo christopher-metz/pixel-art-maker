@@ -58,7 +58,7 @@
   };
 
   table.addEventListener('mousedown', handleMouseDown);
-  table.addEventListener('mouseup', handleMouseUp);
+  document.addEventListener('mouseup', handleMouseUp);
   for (const row of table.children) {
     for (const cell of row.children) {
       cell.addEventListener('mouseenter', handleMouseEnter);
